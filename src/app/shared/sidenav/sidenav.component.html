@@ -1,0 +1,9 @@
+<ul class="sidenav">
+    <li *ngFor="let city of cities">
+        <a [routerLink]="['/', city?.location?.name]" [routerLinkActive]="['active']">
+            <img [src]="city?.current?.condition?.icon" alt="icon">
+            <span class="city-name">{{city?.location?.name}} <small>({{city?.current?.condition?.text}})</small> </span>
+            <span class="temprature">{{city?.current?.temp_c + '\u00B0'}} C</span>
+        </a>
+    </li>
+</ul>

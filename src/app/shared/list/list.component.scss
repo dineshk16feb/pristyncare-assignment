@@ -1,0 +1,30 @@
+.list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075);
+    padding: 0.5rem 1rem;
+    border: 1px solid rgba(0, 0, 0, .035);
+    border-radius: 6px;
+
+    .date,
+    .temprature {
+        width: 120px;
+    }
+
+    .text {
+        flex: auto;
+        padding: 0 1rem;
+    }
+
+    img {
+        display: block;
+        width: 48px;
+    }
+
+    .temprature {
+        padding-left: 1rem;
+        text-align: right;
+    }
+}

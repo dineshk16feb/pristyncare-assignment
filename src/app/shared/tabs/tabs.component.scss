@@ -1,0 +1,26 @@
+.tab-wrapper {
+    padding: 1rem 0;
+
+    .tab-nav {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+
+        &>li {
+            padding: 0.5rem 0.8rem;
+            cursor: pointer;
+            color: #8e8e8e;
+            border-bottom: 2px solid #D5D5D5;
+
+            &.active {
+                border-color: #6F00D6;
+                color: #6F00D6;
+            }
+        }
+    }
+
+    .tab-content {
+        padding: 0.5rem 0;
+    }
+}

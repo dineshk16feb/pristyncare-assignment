@@ -1,0 +1,31 @@
+.weather-banner {
+    display: flex;
+    background-color: #6F00D6;
+    padding: 2rem;
+    border-radius: 10px;
+    color: #fff;
+    align-items: center;
+
+    img {
+        display: block;
+        width: 64px;
+    }
+
+    .city-name {
+        flex: auto;
+        font-size: 1.2rem;
+        font-weight: 700;
+        padding: 0 1.5rem;
+
+        small {
+            display: block;
+            font-size: 12px;
+            font-weight: 300;
+        }
+    }
+
+    .temprature{
+        font-size: 2rem;
+        font-weight: 700;
+    }
+}

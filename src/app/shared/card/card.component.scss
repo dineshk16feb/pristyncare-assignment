@@ -1,0 +1,15 @@
+.card {
+    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075);
+    border-radius: 6px;
+    padding: 1rem;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, .035);
+
+    .temprature {
+        display: block;
+        font-weight: 300;
+        font-size: 1.2rem;
+        margin-bottom: 0.5rem;
+        color: rgb(163, 163, 163);
+    }
+}

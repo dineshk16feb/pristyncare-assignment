@@ -1,0 +1,11 @@
+.grid-view {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 -0.5rem;
+
+    &>app-card {
+        width: 140px;
+        padding: 0.5rem;
+    }
+}

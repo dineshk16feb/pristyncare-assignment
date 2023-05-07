@@ -1,0 +1,5 @@
+<div class="weather-banner">
+    <img [src]="data?.current?.condition?.icon" alt="icon">
+    <span class="city-name">{{data?.location?.name}} <small>{{'Humidity: ' + data?.current?.humidity}}</small> </span>
+    <span class="temprature">{{data?.current?.temp_c + '\u00B0'}} C</span>
+</div>

@@ -1,0 +1,26 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Lexend', sans-serif;
+}
+
+body {
+    font-weight: 400;
+    font-size: 14px;
+    color: #212529;
+}
+
+.content-wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+
+    .content-section {
+        padding: 0 1rem 1rem;
+        flex: auto;
+    }
+}

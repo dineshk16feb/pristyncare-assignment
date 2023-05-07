@@ -1,0 +1,12 @@
+<ng-container *ngIf="forcastData$ | async as forcastData">
+    <app-banner [data]="forcastData"></app-banner>
+
+    <my-tabs>
+        <my-tab tabTitle="Today">
+            <app-grid-view></app-grid-view>
+        </my-tab>
+        <my-tab tabTitle="Next 7 Days">
+            <app-list-view></app-list-view>
+        </my-tab>
+    </my-tabs>
+</ng-container>

@@ -1,0 +1,5 @@
+<div class="card">
+    <img alt="icon" [src]="data?.condition?.icon">
+    <span class="temprature">{{data?.temp_c + '\u00B0'}} C</span>
+    <span class="time">{{data?.time | date: 'hh:mm a'}}</span>
+</div>

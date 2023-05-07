@@ -1,0 +1,17 @@
+.sidebar {
+    width: 380px;
+    padding: 0 1rem 1rem;
+
+    .actions {
+        text-align: right;
+        margin-bottom: 1rem;
+
+        a {
+            cursor: pointer;
+
+            &:hover {
+                color: #6F00D6;
+            }
+        }
+    }
+}

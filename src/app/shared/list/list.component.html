@@ -1,0 +1,6 @@
+<div class="list">
+    <span class="date">{{data?.date | date: 'dd MMM yyyy'}}</span>
+    <span class="text">{{data?.day?.condition?.text}}</span>
+    <img alt="icon" [src]="data?.day?.condition?.icon">
+    <span class="temprature">{{data?.day?.mintemp_c + '\u00B0'}} - {{data?.day?.maxtemp_c + '\u00B0'}} C</span>
+</div>
